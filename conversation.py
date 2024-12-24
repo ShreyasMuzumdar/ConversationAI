@@ -1,5 +1,5 @@
 import sounddevice as sd
-from porcupine import Porcupine
+from pvporcupine import Porcupine
 from llama_cpp import Llama
 from TTS.api import TTS
 
