@@ -7,7 +7,7 @@ from TTS.api import TTS
 llama = Llama(model_path="./llama-7b.ggmlv3.q4_0.bin")  # Path to LLaMA model
 tts = TTS(model_name="tts_models/en/ljspeech/tacotron2-DDC")
 porcupine = Porcupine(
-    access_key="YOUR_PICOVOICE_ACCESS_KEY", keyword_paths=["path_to_wakeword.ppn"]
+    access_key="+b/VvsTn8hkmOXbtwUqHcw6L+6DhoZzoc0og+pzqHrou7A5v6nY40w==", keyword_paths=["Hello-Joe_en_mac_v3_0_0.ppn"]
 )
 
 # Wake-word detection
